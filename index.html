@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Disdukcapil Kab. Barru</title>
   <style>
+    /* Mengatur agar halaman tampil penuh memenuhi layar tanpa scroll */
     html, body {
       margin: 0;
       padding: 0;
@@ -13,16 +14,9 @@
       overflow: hidden;
       background-color: #f1f5f9;
     }
-    .iframe-container {
+    iframe {
       width: 100%;
       height: 100%;
-      overflow: hidden;
-      position: relative;
-    }
-    .iframe-container iframe {
-      width: 100%;
-      height: calc(100% + 50px); 
-      margin-top: -50px; 
       border: none;
       display: block;
     }
@@ -30,10 +24,8 @@
 </head>
 <body>
 
-  <div class="iframe-container">
-    <!-- Gunakan URL Cloudflare Worker di sini, BUKAN URL Google Script -->
-    <iframe src="https://quiet-hill-34ce.7311-dukcapil.workers.dev" title="Disdukcapil Barru | MATIPPE"></iframe>
-  </div>
+  <!-- Ganti URL di bawah ini dengan URL Web App Apps Script Anda yang berakhiran /exec -->
+  <iframe src="https://script.google.com/macros/library/d/1skp2Ji2u5mRumoyKdE4trWOzMNYy_tk6Y1WuOsC0E9DPn1cS21-2qpSx/5" title="Disdukcapil Barru | MATIPPE+"></iframe>
 
 </body>
 </html>
